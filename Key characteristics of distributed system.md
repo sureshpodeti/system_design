@@ -5,3 +5,23 @@
 3. Availability
 4. Efficiency
 5. Serviceability or maintainability
+
+## Scalability
+
+System ability to **grow and manage** increased demand.
+
+Reasons for scaling: *increased volume of data, increased amount of work or transactions*
+
+*Horizontal scaling and Vertical scaling*
+
+### Horizontal scaling 
+Add **more servers** to the pool of resources.
+Easier to scale dynamically.
+
+### Vertical scaling
+Add **more power** (CPU, RAM, Storage, etc..) to an existing server.<br>
+Involves downtime, and comes with upper limit.
+
+###### Examples
+*Horizontal scaling* - MongoDB, Cassandra.<br>
+*Vertical scaling* - Mysql. (Easy way to scale from switching from smaller to bigger machines)
